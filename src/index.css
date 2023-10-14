@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: 'Inter', sans-serif;
+}
+
+
+/* HEADER */
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: #F55A5A;
+  color: white;
+  padding-block: 20px;
+}
+
+header > .fa-earth-americas {
+  font-size: 24px;
+}
+
+header > h3 {
+  font-size: 14.46px;
+}
+
+/* CARD */
+.card-container {
+  max-width: 600px;
+  margin-inline: auto;
+  background-color: #918e9b0f;
+}
+section {
+  display: flex;
+  margin-inline: 20px;
+  padding-top: 20px;
+  border-bottom: 2px solid #F5F5F5;
+  padding-bottom: 20px;
+}
+
+section > img {
+  width: 100px;
+  border-radius: 5px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 10px;
+}
+
+.card--top {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+
+.fa-location-dot {
+  color: #F55A5A;
+}
+
+.location {
+  margin-left: 3px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+a {
+  margin-left: 12px;
+  color: #918E9B;
+}
+
+h2 {
+  font-size: 30px;
+  margin-top: 4px;
+}
+
+section h3 {
+  font-size: 14px;
+  margin-top: 20px;
+  margin-bottom: 9px;
+}
+
+p {
+  font-size: 12.5px;
+}
+
+@media (min-width:600px) {
+  section > img {
+    width: 140px;
+  }
+
+  h2 {
+    font-size: 35px;
+  }
+
+  section h3 {
+    font-size: 16px;
+  }
+
+  section p {
+    font-size: 15px;
+  }
+
+  .card--top {
+    font-size: 16px;
+  }
+
+  section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
