@@ -36,7 +36,6 @@ header > h3 {
 .card-container {
   max-width: 600px;
   margin-inline: auto;
-  background-color: #918e9b0f;
 }
 section {
   display: flex;
@@ -118,5 +117,9 @@ p {
   section {
     padding-top: 40px;
     padding-bottom: 40px;
+  }
+
+  .card-container {
+    background-color: #918e9b0f;
   }
 }
